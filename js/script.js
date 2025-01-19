@@ -2,7 +2,7 @@
 
 
 
-
+/*
 const card = document.getElementById("card");
 const scrollLeft = document.getElementById("left");
 const scrollRight = document.getElementById("right");
@@ -46,6 +46,6 @@ function slider_carouselInit(){
 slider_carouselInit();
 
 
-
+*/
 
 

@@ -4,7 +4,7 @@ $terceira: #682680;
 $quarta: #410B55;
 
 
-.container-fluid{
+.container-fluid {
   height: 1200px;
   justify-content: center;
 
@@ -13,15 +13,10 @@ $quarta: #410B55;
     .col-md-6{
       height: 400px;
       align-content: center;
-    }
-    .imagem1{
-      height: 400px;
-      border-top-left-radius: 5%;
-      border-bottom-left-radius: 5%;
-      background-image: url("https://media.istockphoto.com/id/1334536145/pt/foto/happy-family-of-four-getting-on-boarding-the-plane-on-a-daytime-ready-for-summer-vacations.jpg?s=612x612&w=0&k=20&c=cy6ULdHULdXq03bYlSAqXxs76uaROXChb3U1gSVbfAM=");
-      background-size: cover; /* Ajusta a imagem para cobrir o elemento */
-      background-position: center; /* Centraliza a imagem */
-      background-repeat: no-repeat; /* Evita repetição da imagem */
+
+      .imagem1 img{
+        max-width: 1250px;
+      }
     }
   }
 
@@ -30,34 +25,60 @@ $quarta: #410B55;
 
     .col-md-12{
       align-items: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+
     }
   }
 
   //CARD
-  #card{
-    display: flex;
-    width: 50%;
-    margin: auto;
 
-    transition: .3s;
+  .carousel{
+
+    @media screen and (min-width: 992px) {
+      .card-wripper{
+        display: none;
+      }
+    }
+
+    .card-wripper{
+      display: flex;
+      justify-content: center;
+      .card{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100%/4);
+        .card-img-top{
+          height: 250px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .card:not(:first-child){
+        display: none;
+      }
+    }
+  }
+
+
+
+  
+  .carousel1{
+
+    display: flex;
+    margin: auto;
+    width: 80%;
+
+    .card-wripper{
+      display: flex;
+      justify-content: center;
+    }
+
+    .carousel-contorl-prev, .carousel-contorl-next{
+      transform: translateY(-100);
+    }
     
   }
-  
 
-
- 
-
-  .btn-arrow{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(173, 158, 158);
-  }
-
-
- 
 }
-
