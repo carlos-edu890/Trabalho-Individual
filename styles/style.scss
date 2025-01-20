@@ -10,7 +10,7 @@ body{
   background-color: rgb(238, 232, 232);
 
   .container-fluid {
-    height: 1200px;
+    height: auto;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -19,9 +19,9 @@ body{
         height: 400px;
         align-content: center;
 
-        .imagem1 img{
-          max-width: 1250px;
-        }
+        
+
+        
       }
     }
 
@@ -90,9 +90,26 @@ body{
       margin: auto;
       width: 80%;
 
-      .card-wripper{
-        display: flex;
-        justify-content: center;
+      .card{
+
+        .card-img-top{
+          height: 250px;
+        }
+
+
+        del{
+          color: rgba(0, 0, 0, 0.486);
+          font-size: 15px;
+        }
+
+        .card-text{
+          color: rgba(0, 0, 0, 0.63);
+          font-size: 15px;
+        }
+
+        .Preco-real{
+          font-size: 20px;
+        }
       }
 
       .carousel-contorl-prev, .carousel-contorl-next{
@@ -102,9 +119,12 @@ body{
     }
 
     .cards-imgs{
-      color: #C087D5;
-      height: 200px;
+      color: #08020a;
 
+      .img-alterar{
+        width: 30px;
+        height: 30px;
+      }
     }
 
 

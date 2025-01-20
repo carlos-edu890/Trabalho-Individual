@@ -3,16 +3,13 @@ body {
   background-color: rgb(238, 232, 232);
 }
 body .container-fluid {
-  height: 1200px;
+  height: auto;
   justify-content: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body .container-fluid .linha2 .col-md-6 {
   height: 400px;
   align-content: center;
-}
-body .container-fluid .linha2 .col-md-6 .imagem1 img {
-  max-width: 1250px;
 }
 body .container-fluid .linha3 {
   justify-content: center;
@@ -60,16 +57,29 @@ body .container-fluid .carousel1 {
   margin: auto;
   width: 80%;
 }
-body .container-fluid .carousel1 .card-wripper {
-  display: flex;
-  justify-content: center;
+body .container-fluid .carousel1 .card .card-img-top {
+  height: 250px;
+}
+body .container-fluid .carousel1 .card del {
+  color: rgba(0, 0, 0, 0.486);
+  font-size: 15px;
+}
+body .container-fluid .carousel1 .card .card-text {
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 15px;
+}
+body .container-fluid .carousel1 .card .Preco-real {
+  font-size: 20px;
 }
 body .container-fluid .carousel1 .carousel-contorl-prev, body .container-fluid .carousel1 .carousel-contorl-next {
   transform: translateY(-100);
 }
 body .container-fluid .cards-imgs {
-  color: #C087D5;
-  height: 200px;
+  color: #08020a;
+}
+body .container-fluid .cards-imgs .img-alterar {
+  width: 30px;
+  height: 30px;
 }
 body .container-fluid footer {
   background-color: rgb(255, 255, 255);
