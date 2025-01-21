@@ -2,6 +2,8 @@ $primeira: #924FAA;
 $segunda: #C087D5;
 $terceira: #682680;
 $quarta: #410B55;
+$quinta: #270570;
+$sexta: #4400D4;
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -9,19 +11,27 @@ $quarta: #410B55;
 body{
   background-color: rgb(238, 232, 232);
 
+  .article12{
+    background-color: $sexta;
+  }
+
   .container-fluid {
     height: auto;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     .linha2{
+
       .col-md-6{
         height: 400px;
         align-content: center;
+      }
 
-        
-
-        
+      .image-container{
+        background-image: url('https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
       }
     }
 
@@ -58,19 +68,24 @@ body{
             height: 250px;
           }
 
-          del{
-            color: rgba(0, 0, 0, 0.486);
-            font-size: 15px;
+          .card-body{
+
+            del{
+              color: rgba(0, 0, 0, 0.473);
+              font-size: 15px;
+            }
+
+            .card-text{
+              color: rgba(0, 0, 0, 0.473);
+              font-size: 15px;
+            }
+
+            .Preco-real{
+              font-size: 20px;
+            }
           }
 
-          .card-text{
-            color: rgba(0, 0, 0, 0.63);
-            font-size: 15px;
-          }
-
-          .Preco-real{
-            font-size: 20px;
-          }
+          
         }
       }
 
@@ -126,12 +141,13 @@ body{
         height: 30px;
       }
     }
+    
+  }
 
-
-    footer{
-      background-color: rgb(255, 255, 255);
-    }
-
+  footer{
+    background-color: $terceira;
+    color: white;
+    display: flex;
   }
 
 }

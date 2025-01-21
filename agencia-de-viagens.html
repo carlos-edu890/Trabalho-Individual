@@ -9,11 +9,53 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="/fontawesome/css/all.css">
-  <script src="js/script.js"></script>
   <title>Voexpress</title>
 </head>
 <body>
-  <div class="container-fluid d-flex align-items-center border border-dark">
+  <header class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <article class="container-fluid text-center article12 pt-3 pb-3">
+    <div class="row">
+      <div class="col">
+        <h2>Ainda não decidiu onde irá viajar?</h2>
+        <h2>Não Perca o seu tempo e viaje com a Voexpress</h2>
+      </div>
+    </div>
+  </article>
+  <div class="d-flex align-items-center mt-2">
     <!--<header>
       <div class="row">
         <div class="col-md-3 border border-dark">oi</div>
@@ -21,10 +63,10 @@
       </div>
     </header>-->
     <main class="container-fluid">
-      <div class="row linha2 border border-dark">
+      <div class="row linha2">
         <div class="col-12 col-md-6 text-center"><h2>Viaje com segurança e com os melhores preços</h2></div>
-        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center image-container">
-          <img src="https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg" class="rounded img-fluid" alt="">
+        <div class="col-12 col-md-6 image-container">
+          <!-- <img src="https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg" class="rounded img-fluid" alt=""> -->
         </div>
       </div>
       <div class="row linha3 text-center">
@@ -381,6 +423,9 @@
             </div>
           </div>
         </div>
+      <div class="row text-center mt-5">
+        <div class="col"><h2>Viaje pelo mundo</h2></div>
+      </div>  
       </div>
       <div class="row row-cols-4 mt-5 mb-5 justify-content-center">
         <div class="col-10 col-lg-3 mb-3">
@@ -417,13 +462,13 @@
         </div>
       </div>
     </main>
-    <!--<footer class="row">
-      <div class="col">
-        <div class="col-lg-6">
-          <p>Com um oferecimento de Heineken</p>
-        </div>
-      </div>
-    </footer>-->
   </div>
+  <footer class="container-fluid">
+    <div class="row text-center border border-dark pt-5 pb-5">
+      <div class="col">
+        <p>Com um oferecimento de Heineken</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

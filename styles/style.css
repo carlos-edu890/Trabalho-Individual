@@ -2,6 +2,9 @@
 body {
   background-color: rgb(238, 232, 232);
 }
+body .article12 {
+  background-color: #4400D4;
+}
 body .container-fluid {
   height: auto;
   justify-content: center;
@@ -10,6 +13,12 @@ body .container-fluid {
 body .container-fluid .linha2 .col-md-6 {
   height: 400px;
   align-content: center;
+}
+body .container-fluid .linha2 .image-container {
+  background-image: url("https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 body .container-fluid .linha3 {
   justify-content: center;
@@ -36,15 +45,15 @@ body .container-fluid .carousel .card-wripper .card {
 body .container-fluid .carousel .card-wripper .card .card-img-top {
   height: 250px;
 }
-body .container-fluid .carousel .card-wripper .card del {
-  color: rgba(0, 0, 0, 0.486);
+body .container-fluid .carousel .card-wripper .card .card-body del {
+  color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
-body .container-fluid .carousel .card-wripper .card .card-text {
-  color: rgba(0, 0, 0, 0.63);
+body .container-fluid .carousel .card-wripper .card .card-body .card-text {
+  color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
-body .container-fluid .carousel .card-wripper .card .Preco-real {
+body .container-fluid .carousel .card-wripper .card .card-body .Preco-real {
   font-size: 20px;
 }
 @media screen and (max-width: 991px) {
@@ -81,6 +90,8 @@ body .container-fluid .cards-imgs .img-alterar {
   width: 30px;
   height: 30px;
 }
-body .container-fluid footer {
-  background-color: rgb(255, 255, 255);
+body footer {
+  background-color: #682680;
+  color: white;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
