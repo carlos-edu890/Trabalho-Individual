@@ -49,6 +49,11 @@ body{
       .imagem5{
         height: 500px;
       }
+      @media screen and (max-width: 991px) {
+        .imagem5{
+          height: 300px;
+        }
+      }
     }
   }
 
