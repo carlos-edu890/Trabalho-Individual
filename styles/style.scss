@@ -1,4 +1,4 @@
-$primeira: #924FAA;
+$primeira: #924faa;
 $segunda: #C087D5;
 $terceira: #682680;
 $quarta: #410B55;
@@ -6,23 +6,59 @@ $quinta: #270570;
 $sexta: #4400D4;
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 body{
   background-color: rgb(238, 232, 232);
 
+  header{
+    background-color: #F8F9FA;
+    padding-bottom: 30px;
+    .img-logo{
+      height: 70px;
+      width: 70px;
+    }
+    .nav-item{
+      :hover{
+        color: $terceira;
+      }
+    }
+    .links{
+      color: #08020a;
+      text-decoration: none;
+      .d-flex{
+        padding-right: 30px;
+        float: left;
+        text-align: center;
+        flex-direction: column;
+      }
+      :hover{
+        color: $terceira;
+      }
+    }
+  }
+
   .article12{
     background-color: $sexta;
+
+    .row{
+      width: 80%;
+
+      .imagem5{
+        height: 500px;
+      }
+    }
   }
 
   .container-fluid {
     height: auto;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rubik','Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     .linha2{
 
-      .col-md-6{
+      .col-lg-6{
         height: 400px;
         align-content: center;
       }
@@ -42,10 +78,8 @@ body{
         align-items: center;
         padding-top: 60px;
         padding-bottom: 60px;
-
       }
     }
-
     
     //CARD
     .carousel{
@@ -84,8 +118,6 @@ body{
               font-size: 20px;
             }
           }
-
-          
         }
       }
 
@@ -95,8 +127,6 @@ body{
         }
       }
     }
-
-
 
     //CARD RESPONSIVO
     .carousel1{
@@ -110,7 +140,6 @@ body{
         .card-img-top{
           height: 250px;
         }
-
 
         del{
           color: rgba(0, 0, 0, 0.486);
@@ -130,7 +159,6 @@ body{
       .carousel-contorl-prev, .carousel-contorl-next{
         transform: translateY(-100);
       }
-      
     }
 
     .cards-imgs{
@@ -141,7 +169,6 @@ body{
         height: 30px;
       }
     }
-    
   }
 
   footer{
