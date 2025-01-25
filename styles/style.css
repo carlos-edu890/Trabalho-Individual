@@ -11,6 +11,9 @@ body header .img-logo {
   height: 70px;
   width: 70px;
 }
+body header .nav-item .active :hover {
+  color: #682680;
+}
 body header .nav-item :hover {
   color: #682680;
 }
@@ -19,7 +22,7 @@ body header .links {
   text-decoration: none;
 }
 body header .links .d-flex {
-  padding-right: 30px;
+  width: 90px;
   float: left;
   text-align: center;
   flex-direction: column;
@@ -122,7 +125,7 @@ body .container-fluid .carousel1 .carousel-contorl-prev, body .container-fluid .
 body .container-fluid .cards-imgs {
   color: #08020a;
 }
-body .container-fluid .cards-imgs .img-alterar {
+body .container-fluid .img-alterar {
   width: 30px;
   height: 30px;
 }

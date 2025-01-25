@@ -20,6 +20,12 @@ body{
       width: 70px;
     }
     .nav-item{
+      .active{
+        :hover{
+          color: $terceira;
+        }
+      }
+
       :hover{
         color: $terceira;
       }
@@ -29,7 +35,7 @@ body{
       color: #08020a;
       text-decoration: none;
       .d-flex{
-        padding-right: 30px;
+        width: 90px;
         float: left;
         text-align: center;
         flex-direction: column;
@@ -75,6 +81,8 @@ body{
         background-size: cover;
         background-position: center;
       }
+
+      
     }
 
     .linha3{
@@ -169,11 +177,12 @@ body{
 
     .cards-imgs{
       color: #08020a;
+      
+    }
 
-      .img-alterar{
-        width: 30px;
-        height: 30px;
-      }
+    .img-alterar{
+      width: 30px;
+      height: 30px;
     }
   }
 
