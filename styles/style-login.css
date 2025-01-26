@@ -1,0 +1,32 @@
+body{
+  background-color:  rgb(238, 232, 232);
+}
+
+body .container{
+  background-color: white;
+  transform: translateY(240px);
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.397);
+}
+
+body .container .row{
+  height: 100%;
+}
+
+body .container .dis{
+  padding: 5px;
+  text-decoration: none;
+}
+
+body .container button{
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 5px;
+}

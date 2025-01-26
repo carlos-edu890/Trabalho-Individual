@@ -11,9 +11,6 @@ body header .img-logo {
   height: 70px;
   width: 70px;
 }
-body header .nav-item .active :hover {
-  color: #682680;
-}
 body header .nav-item :hover {
   color: #682680;
 }
@@ -22,10 +19,11 @@ body header .links {
   text-decoration: none;
 }
 body header .links .d-flex {
-  width: 90px;
+  width: 100px;
   float: left;
   text-align: center;
   flex-direction: column;
+  padding-top: 5px;
 }
 body header .links :hover {
   color: #682680;
@@ -34,16 +32,18 @@ body .article12 {
   background-color: #4400D4;
 }
 body .article12 .row {
-  width: 80%;
+  width: 100%;
 }
 body .article12 .row .imagem5 {
   height: 500px;
 }
+/*
 @media screen and (max-width: 991px) {
   body .article12 .row .imagem5 {
     height: 300px;
   }
 }
+*/
 body .container-fluid {
   height: auto;
   justify-content: center;
@@ -53,12 +53,17 @@ body .container-fluid .linha2 .col-lg-6 {
   height: 400px;
   align-content: center;
 }
+
 body .container-fluid .linha2 .image-container {
+  height: 100%;
+  /*
   background-image: url("https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  */
 }
+
 body .container-fluid .linha3 {
   justify-content: center;
 }

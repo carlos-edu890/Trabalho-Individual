@@ -6,20 +6,29 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
   <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="styles/style-login.css">
   <title>Faça o Login</title>
 </head>
 <body>
-  <div class="container d-flex align-content-center border border-dark">
+  <div class="container d-flex justify-content-center m-auto">
     <div class="row">
-      <div class="col">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <div class="col-6">
+        <label for="exampleFormControlInput1" class="form-label dis">Endereço de Email</label>
+        <input type="email" class="form-control dis" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="col-6">
+
       </div>
     </div>
     <div class="row">
-      <div class="col">
-        <label for="inputPassword5" class="form-label">Password</label>
-        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+      <div class="col-6">
+        <label for="inputPassword5" class="form-label dis">Senha</label>
+        <input type="password" id="inputPassword5" class="form-control dis" aria-describedby="passwordHelpBlock">
+        <p>Você esqueceu a <a href="#" class="dis">Senha?</a></p>
+        <button>Sign-Up</button>
+      </div>
+      <div class="col-6">
+        
       </div>
     </div>
   </div>
