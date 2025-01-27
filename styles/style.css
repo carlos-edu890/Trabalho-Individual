@@ -3,21 +3,30 @@
 body {
   background-color: rgb(238, 232, 232);
 }
+
 body header {
   background-color: #F8F9FA;
   padding-bottom: 30px;
 }
-body header .img-logo {
-  height: 70px;
-  width: 70px;
+
+body header .navbar-brand{
+  color: #CE803D;
 }
+
+body header .img-logo {
+  height: 90px;
+  width: 90px;
+}
+
 body header .nav-item :hover {
   color: #682680;
 }
+
 body header .links {
   color: #08020a;
   text-decoration: none;
 }
+
 body header .links .d-flex {
   width: 100px;
   float: left;
@@ -25,18 +34,23 @@ body header .links .d-flex {
   flex-direction: column;
   padding-top: 5px;
 }
+
 body header .links :hover {
   color: #682680;
 }
+
 body .article12 {
   background-color: #4400D4;
 }
+
 body .article12 .row {
   width: 100%;
 }
+
 body .article12 .row .imagem5 {
   height: 500px;
 }
+
 /*
 @media screen and (max-width: 991px) {
   body .article12 .row .imagem5 {
@@ -49,93 +63,91 @@ body .container-fluid {
   justify-content: center;
   font-family: "Rubik", "Open Sans", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 body .container-fluid .linha2 .col-lg-6 {
   height: 400px;
   align-content: center;
 }
 
+
 body .container-fluid .linha2 .image-container {
   height: 100%;
-  /*
-  background-image: url("https://thumbs.dreamstime.com/b/fam%C3%ADlia-no-aeroporto-60377180.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  */
 }
 
 body .container-fluid .linha3 {
   justify-content: center;
 }
+
 body .container-fluid .linha3 .col-md-12 {
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (min-width: 992px) {
-  body .container-fluid .carousel .card-wripper {
-    display: none;
-  }
-}
+
 body .container-fluid .carousel .card-wripper {
   display: flex;
   justify-content: center;
 }
+
 body .container-fluid .carousel .card-wripper .card {
   margin-left: 20px;
   margin-right: 20px;
   width: 25%;
 }
+
 body .container-fluid .carousel .card-wripper .card .card-img-top {
   height: 250px;
 }
+
 body .container-fluid .carousel .card-wripper .card .card-body del {
   color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
+
 body .container-fluid .carousel .card-wripper .card .card-body .card-text {
   color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
+
 body .container-fluid .carousel .card-wripper .card .card-body .Preco-real {
   font-size: 20px;
 }
-@media screen and (max-width: 991px) {
-  body .container-fluid .carousel .card:not(:first-child) {
-    display: none;
-  }
-}
+
 body .container-fluid .carousel1 {
   display: flex;
   margin: auto;
   width: 80%;
 }
+
 body .container-fluid .carousel1 .card .card-img-top {
   height: 250px;
 }
+
 body .container-fluid .carousel1 .card del {
   color: rgba(0, 0, 0, 0.486);
   font-size: 15px;
 }
+
 body .container-fluid .carousel1 .card .card-text {
   color: rgba(0, 0, 0, 0.63);
   font-size: 15px;
 }
+
 body .container-fluid .carousel1 .card .Preco-real {
   font-size: 20px;
 }
-body .container-fluid .carousel1 .carousel-contorl-prev, body .container-fluid .carousel1 .carousel-contorl-next {
-  transform: translateY(-100);
-}
+
 body .container-fluid .cards-imgs {
   color: #08020a;
 }
+
 body .container-fluid .img-alterar {
   width: 30px;
   height: 30px;
 }
+
 body footer {
   background-color: #682680;
   color: white;
   display: flex;
-}/*# sourceMappingURL=style.css.map */
+}
