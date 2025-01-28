@@ -48,16 +48,9 @@ body .article12 .row {
 }
 
 body .article12 .row .imagem5 {
-  height: 500px;
+  height: auto;
 }
 
-/*
-@media screen and (max-width: 991px) {
-  body .article12 .row .imagem5 {
-    height: 300px;
-  }
-}
-*/
 body .container-fluid {
   height: auto;
   justify-content: center;
