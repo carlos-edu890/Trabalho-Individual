@@ -12,8 +12,11 @@ body .voltar{
   transform: translateX(10px);
 }
 
-body .container{
-  transform: translateY(150px);
+body .principal{
+  height: 92.6vh;
+}
+
+body .principal .container{
   background-color: white;
   flex-direction: column;
   width: 50%;
@@ -23,40 +26,40 @@ body .container{
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.397);
 }
 
-body .container .justy{
+body .principal .container .justy{
   justify-items: center;
 }
 
-body .container .row5{
+body .principal .container .row5{
   border-radius: 5px;
   height: 100%;
   padding: 10px;
   color: rgba(0, 0, 0, 0.849);
 }
 
-body .container .login{
+body .principal .container .login{
   text-align: center;
   border-radius: 0px 0px 5px 5px;
 }
 
-body .container .row{
+body .principal .container .row{
   height: 100%;
 }
 
-body .container .dis{
+body .principal .container .dis{
   padding: 5px;
   text-decoration: none;
 }
 
-body .container input{
+body .principal .container input{
   border: 1px solid rgba(0, 0, 0, 0.432);
 }
 
-body .container .botao{
+body .principal .container .botao{
   text-align: center;
 }
 
-body .container button{
+body .principal .container button{
   color: white;
   background-color: blueviolet;
   border: none;

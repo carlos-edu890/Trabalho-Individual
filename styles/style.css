@@ -57,9 +57,10 @@ body .container-fluid {
   font-family: "Rubik", "Open Sans", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-body .container-fluid .linha2 .col-lg-6 {
+body .container-fluid .linha2 .text-lado {
   height: 400px;
   align-content: center;
+  
 }
 
 
