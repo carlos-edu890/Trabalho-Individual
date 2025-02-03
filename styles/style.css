@@ -15,7 +15,8 @@ body header .navbar-brand{
 
 body header .img-logo {
   height: 90px;
-  width: 90px;
+  width: auto;
+  padding-bottom: -50px;
 }
 
 body header .nav-item :hover {
