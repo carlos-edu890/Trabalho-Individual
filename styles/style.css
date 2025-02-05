@@ -14,9 +14,8 @@ body header .navbar-brand{
 }
 
 body header .img-logo {
-  height: 90px;
+  height: 100px;
   width: auto;
-  padding-bottom: -50px;
 }
 
 body header .nav-item :hover {
@@ -145,4 +144,19 @@ body footer {
   background-color: #682680;
   color: white;
   display: flex;
+  flex-direction: column;
+}
+
+body footer .img-app{
+  height: 90px;
+  width: 180px;
+}
+
+body footer .co5{
+  flex-direction: row;
+}
+
+body footer .co5 ul{
+  list-style-type: none;
+  flex-direction: row;
 }
