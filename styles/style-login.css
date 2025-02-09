@@ -2,7 +2,7 @@ body{
   background-color:  rgb(238, 232, 232);
 }
 
-body .voltar{
+.voltar{
   border: 1px solid rgba(0, 0, 0, 0.342);
   color: rgba(0, 0, 0, 0.616);
   border-radius: 50%;
@@ -12,11 +12,11 @@ body .voltar{
   transform: translateX(10px);
 }
 
-body .principal{
+.principal{
   height: 92.6vh;
 }
 
-body .principal .container{
+.container{
   background-color: white;
   flex-direction: column;
   width: 50%;
@@ -26,40 +26,40 @@ body .principal .container{
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.397);
 }
 
-body .principal .container .justy{
+.container .justy{
   justify-items: center;
 }
 
-body .principal .container .row5{
+.container .row5{
   border-radius: 5px;
   height: 100%;
   padding: 10px;
   color: rgba(0, 0, 0, 0.849);
 }
 
-body .principal .container .login{
+.container .login{
   text-align: center;
   border-radius: 0px 0px 5px 5px;
 }
 
-body .principal .container .row{
+.container .row{
   height: 100%;
 }
 
-body .principal .container .dis{
+.container .dis{
   padding: 5px;
   text-decoration: none;
 }
 
-body .principal .container input{
+.container input{
   border: 1px solid rgba(0, 0, 0, 0.432);
 }
 
-body .principal .container .botao{
+.container .botao{
   text-align: center;
 }
 
-body .principal .container button{
+.container button{
   color: white;
   background-color: blueviolet;
   border: none;

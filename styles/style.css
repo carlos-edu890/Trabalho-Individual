@@ -4,30 +4,30 @@ body {
   background-color: rgb(238, 232, 232);
 }
 
-body header {
+header {
   background-color: #F8F9FA;
   padding-bottom: 30px;
 }
 
-body header .navbar-brand{
+.navbar-brand{
   color: #CE803D;
 }
 
-body header .img-logo {
+.img-logo {
   height: 100px;
   width: auto;
 }
 
-body header .nav-item :hover {
+.nav-item :hover {
   color: #682680;
 }
 
-body header .links {
+.links {
   color: #08020a;
   text-decoration: none;
 }
 
-body header .links .d-flex {
+.links .d-flex {
   width: 100px;
   float: left;
   text-align: center;
@@ -35,112 +35,112 @@ body header .links .d-flex {
   padding-top: 5px;
 }
 
-body header .links :hover {
+.links :hover {
   color: #682680;
 }
 
-body .article12 {
+.article12 {
   background-color: #4400D4;
 }
 
-body .article12 .row {
+.article12 .row {
   width: 100%;
 }
 
-body .article12 .row .imagem5 {
+.article12 .row .imagem5 {
   height: auto;
 }
 
-body .container-fluid {
+.container-fluid {
   height: auto;
   justify-content: center;
   font-family: "Rubik", "Open Sans", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-body .container-fluid .linha2 .text-lado {
+.linha2 .text-lado {
   height: 400px;
   align-content: center;
   
 }
 
 
-body .container-fluid .linha2 .image-container {
+.linha2 .image-container {
   height: 100%;
 }
 
-body .container-fluid .linha3 {
+.linha3 {
   justify-content: center;
 }
 
-body .container-fluid .linha3 .col-md-12 {
+.linha3 .col-md-12 {
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-body .container-fluid .carousel .card-wripper {
+.carousel .card-wripper {
   display: flex;
   justify-content: center;
 }
 
-body .container-fluid .carousel .card-wripper .card {
+.carousel .card-wripper .card {
   margin-left: 20px;
   margin-right: 20px;
   width: 25%;
 }
 
-body .container-fluid .carousel .card-wripper .card .card-img-top {
+.card .card-img-top {
   height: 250px;
 }
 
-body .container-fluid .carousel .card-wripper .card .card-body del {
+.card .card-body del {
   color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
 
-body .container-fluid .carousel .card-wripper .card .card-body .card-text {
+.card .card-body .card-text {
   color: rgba(0, 0, 0, 0.473);
   font-size: 15px;
 }
 
-body .container-fluid .carousel .card-wripper .card .card-body .Preco-real {
+.card .card-body .Preco-real {
   font-size: 20px;
 }
 
-body .container-fluid .carousel1 {
+.carousel1 {
   display: flex;
   margin: auto;
   width: 80%;
 }
 
-body .container-fluid .carousel1 .card .card-img-top {
+.carousel1 .card .card-img-top {
   height: 250px;
 }
 
-body .container-fluid .carousel1 .card del {
+.carousel1 .card del {
   color: rgba(0, 0, 0, 0.486);
   font-size: 15px;
 }
 
-body .container-fluid .carousel1 .card .card-text {
+.carousel1 .card .card-text {
   color: rgba(0, 0, 0, 0.63);
   font-size: 15px;
 }
 
-body .container-fluid .carousel1 .card .Preco-real {
+.carousel1 .card .Preco-real {
   font-size: 20px;
 }
 
-body .container-fluid .cards-imgs {
+.cards-imgs {
   color: #08020a;
 }
 
-body .container-fluid .img-alterar {
+.img-alterar {
   width: 30px;
   height: 30px;
 }
 
-body footer {
+footer {
   background-color: #682680;
   color: white;
   display: flex;
